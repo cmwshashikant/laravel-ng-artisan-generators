@@ -11,7 +11,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/cmwdigital/laravel-ng-artisan-generators"
+            "url": "https://github.com/cmwshashikant/laravel-ng-artisan-generators"
         }
     ],
     "require": {
