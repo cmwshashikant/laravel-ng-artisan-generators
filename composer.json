@@ -4,18 +4,21 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Shashikant Chauhan",
-            "email": "shashikant@cmwdigital.com"
+            "name": "Alessandro Rovito",
+            "email": "alessandro.rovito@gmail.com"
         },
-    ],
-    "repositories": [
         {
-            "type": "vcs",
-            "url": "https://github.com/cmwshashikant/laravel-ng-artisan-generators"
+            "name": "Jad Joubran",
+            "email": "joubran.jad@gmail.com"
         }
     ],
     "require": {
-        "laravelangular/generators": "dev-bugfix"
-    }
-
+        "illuminate/console": "5.1.* || 5.2.* || 5.3.* || 5.4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "LaravelAngular\\Generators\\": "src"
+        }
+    },
+    "minimum-stability": "dev"
 }
