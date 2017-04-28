@@ -1,12 +1,24 @@
 {
-    "repositories":
-    [
-            {
-                "type": "vcs",
-                "url": "https://github.com/cmwshashikant/laravel-ng-artisan-generators"
-            }
+    "name": "laravelangular/generators",
+    "description": "Angular generators for Artisan",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alessandro Rovito",
+            "email": "alessandro.rovito@gmail.com"
+        },
+        {
+            "name": "Jad Joubran",
+            "email": "joubran.jad@gmail.com"
+        }
     ],
     "require": {
-        "laravelangular/generators": "dev-custom"
+        "illuminate/console": "5.1.* || 5.2.* || 5.3.* || 5.4.*"
     },
+    "autoload": {
+        "psr-4": {
+            "LaravelAngular\\Generators\\": "src"
+        }
+    },
+    "minimum-stability": "dev"
 }
