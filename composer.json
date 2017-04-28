@@ -1,21 +1,12 @@
 {
-    "name": "laravelangular/generators",
-    "description": "Angular generators for Artisan",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Shashikant Chauhan",
-            "email": "shashikant@cmwdigital.com"
-        },
-    ],
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/cmwshashikant/laravel-ng-artisan-generators"
-        }
+    "repositories":
+    [
+            {
+                "type": "vcs",
+                "url": "https://github.com/cmwshashikant/laravel-ng-artisan-generators"
+            }
     ],
     "require": {
-        "laravelangular/generators": "dev-bugfix"
-    }
-
+        "laravelangular/generators": "dev-custom"
+    },
 }
