@@ -1,5 +1,5 @@
 <?php
-
+// checking file
 return [
       'source' => [
             'root'            => 'angular',
